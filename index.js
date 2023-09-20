@@ -14,3 +14,14 @@ function writeCards(gif, gify) {
 
 
 writeCards(Cards, "surprise");
+
+
+function countDown(numb) {
+    let i = 0;
+    while (i < numb) {
+        console.log(i);
+        i++;
+    }
+    console.log(i);
+}
+countDown(10);
